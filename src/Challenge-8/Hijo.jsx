@@ -10,6 +10,7 @@ export const Hijo = memo(({ numero, incrementar }) => {
             className="btn btn-primary mr-3"
             onClick={ () => incrementar( numero ) }
         >
+            
             { numero }
         </button>
     )
