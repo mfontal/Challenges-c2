@@ -8,7 +8,7 @@ export const TodoApp = () => {
     return (
         <>
             <h1>
-                TodoApp: {todos.length} <small>Pendientes: {todos.filter(todo => !todo.done).length}</small>
+            TodoApp: X <small>Pendientes: x</small>
             </h1>
             <hr />
             <div className="row">

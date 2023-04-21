@@ -24,12 +24,7 @@ export const useTodo = () => {
         dispatch(action);
     };
 
-    const handleDeleteTodo = (id) => {
-        dispatch({
-            type: '[TODO] Remove Todo',
-            payload: id,
-        });
-    };
+    
 
     const handleToggleTodo = (id) => {
         console.log({id});
@@ -42,7 +37,7 @@ export const useTodo = () => {
     return {
         todos,
         handleNewTodo,
-        handleDeleteTodo,
+        
         handleToggleTodo
 
     }
